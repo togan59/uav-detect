@@ -1,0 +1,13 @@
+train: /home/hk/Code/python/computer-vision/yolov8/train
+val: /home/hk/Code/python/computer-vision/yolov8/valid
+test: /home/hk/Code/python/computer-vision/yolov8/test
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: hk-7vkkb
+  project: fixed-wing-uav-tracking
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/hk-7vkkb/fixed-wing-uav-tracking/dataset/1
